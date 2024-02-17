@@ -1,0 +1,36 @@
+2024-02-13 13:57:34.616 | ERROR    | __main__:nested:35 - What?!
+Traceback (most recent call last):
+
+  File "c:\Users\user\Desktop\py\testy\bibloteki\bibliotekaloguru.py", line 37, in <module>
+    nested(0)
+    └ <function nested at 0x000002865B205620>
+
+> File "c:\Users\user\Desktop\py\testy\bibloteki\bibliotekaloguru.py", line 33, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x000002865B12FB00>
+
+  File "c:\Users\user\Desktop\py\testy\bibloteki\bibliotekaloguru.py", line 29, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+2024-02-13 14:02:51.539 | ERROR    | __main__:nested:35 - What?!
+Traceback (most recent call last):
+
+  File "c:\Users\user\Desktop\py\testy\bibloteki\bibliotekaloguru.py", line 37, in <module>
+    nested(0)
+    └ <function nested at 0x0000022129538C20>
+
+> File "c:\Users\user\Desktop\py\testy\bibloteki\bibliotekaloguru.py", line 33, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x00000221294DF560>
+
+  File "c:\Users\user\Desktop\py\testy\bibloteki\bibliotekaloguru.py", line 29, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
